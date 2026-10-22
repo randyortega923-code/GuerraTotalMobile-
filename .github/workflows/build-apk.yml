@@ -8,4 +8,4 @@ build:
 runs-on: ubuntu-latest
 steps:
 - name: Mostrar mensaje
-run: echo "GuerraTotalMobile"
+run: echo "GuerraTotalMobile funciona" 
