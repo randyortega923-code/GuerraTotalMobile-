@@ -1,12 +1,11 @@
+name: GuerraTotalMobile
 
-name: Construir GuerraTotalMobile APK
+on:
+workflow_dispatch:
+
+jobs:
+build:
 runs-on: ubuntu-latest
-name: Descargar el repositorio
-uses: actions/checkout@v4
-name: Configurar Java
-uses: actions/setup-java@v4
-distribution: temurin
-java-version: '17'
-name: Comprobar archivos del proyecto
-echo "Revisando archivos de GuerraTotalMobile"
-ls -la 
+steps:
+- name: Mostrar mensaje
+run: echo "GuerraTotalMobile"
